@@ -4,14 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+
+    @*Custom styling*@
     <link href="~/Content/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/Content/css/animate.css" rel="stylesheet" />
     <script src="~/Content/css/wow.min.js"></script>
+
+    @*Animate content*@
     <script>
     new WOW().init();
     </script>
+
 </head>
 <body>
     <!-- Navigation -->
@@ -24,13 +27,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a  href="#">@Html.ActionLink("T E S T", "Index", "Product", null, new { @class = "navbar-brand"})</a>
+
+               @Html.ActionLink("T E S T", "Index", "Product", null, new { @class = "navbar-brand"})
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <!-- Collect the nav links for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a @Html.ActionLink("Beverages","Index","Product")</a>
+                         @Html.ActionLink("Beverages","Index","Product")
+                    </li>  
+                    <li>
+                        @Html.ActionLink("Manage Products", "Index", "Manage")
                     </li>                  
                 </ul>
             </div>
@@ -39,15 +47,18 @@
         <!-- /.container -->
     </nav>
      
+    @*Main Content*@
     <div class="container" style="margin-top:70px;">
         @RenderBody()
     </div>
-     
-    <hr>
 
+    @*Footer*@
+    <hr>
     <div class="footer" style="padding-left:110px;">
         <p class="copyright text-muted" style="padding-bottom:5px">Copyright © Rishi Raj Gujadhur 2016</p>
     </div>
+
+    @*Script references*@
     <script src="~/Content/js/jquery.js"></script>
     <script src="~/Content/js/bootstrap.min.js"></script>
 
