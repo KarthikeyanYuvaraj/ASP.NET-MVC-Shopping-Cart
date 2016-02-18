@@ -3,31 +3,43 @@ Functional Shopping-Cart Example
 
 Live Preview: http://rishirajgujadhur.azurewebsites.net/
 
-Top Features:
+## Top Features:
 
-1. Paginated Lists API integrated
+**Paginated Lists API integrated**
 
 ![alt tag](http://i.imgur.com/snpWhzb.png)
 
-2. jQuery Validations for user input
+**jQuery Validations for user input**
 
 ![alt tag](http://i.imgur.com/65E2Gni.png) 
 
-3. Maths - Automatically process Total Amount and Quantity of orders
+**Maths - Automatically process Total Amount and Quantity of orders**
 
 ![alt tag](http://i.imgur.com/gUjlIdw.png)
 
-4. Sessions - In Browser memory storage of User orders
+**Sessions - In Browser memory storage of User orders**
 
 ![alt tag](http://i.imgur.com/w5YnbKv.png?1)
 
-5. Entity Framework - Used to managed the manage the Product list
+**Entity Framework - Used to managed the manage the Product list**
 
-5. Bootstrap - Responsive Website design
+**Bootstrap - Responsive Website design**
 
 ![alt tag](http://i.imgur.com/6rhhqwh.png)
 
-6. WOW.js - Animations
+**WOW.js - Animations**
+
+## To modify the Shopping Cart : 
+
+1. Download the project file: https://github.com/RishiRajGujadhur/ASP.NET-MVC-Shopping-Cart/archive/master.zip 
+
+2. Open via Visual Studio Ultimate running .Net 4.5 or newer
+
+3. Feel free to view/edit the following files which have been fairly documented through the use of comments.  
+
+* Files in the Controller folder
+* Files in the Views folder
+
 
 Live Preview: http://rishirajgujadhur.azurewebsites.net/
 
